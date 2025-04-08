@@ -35,16 +35,45 @@
         <li>ataca</li></ul>
         <li> Reserva</li>
     </ul>
-    <img src="memes-gatos-2.jpg_687446817.webp" width="150">
+    <img src="memes-gatos-2.jpg_687446817.webp" alt="gato debochado" width="200" height="180">
 
-    <table border="2" cellspacing="0" cellpadding="8">
+    <table border="2" cellspacing="5" cellpadding="8">
         <thead>
             <tr>
-                <th> hi </th>
-                <th> olá </th>
+                <th> juju </th>
+                <th> biscreuti </th>
             </tr>
         </thead>
     </table>
+    <h2> Formulario para o INSS</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
 
+        <label for="idade">idade</label><br>
+        <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required><br>
+
+        <label for="email">e-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required><br>
+
+        <label for="senha">senha</label><br>
+        <input type="number" id="senha" name="senha" min="6" max="8"><br>
+
+        <label>Interesse</label><br>
+        <input type="checkbox" id="site" name="interesse" value="site" checked>
+        <label for="site">criaçao de site</label><br>
+        <input type="checkbox" id="mentoria" name="interesse" value="menotria">
+        <label for="mentoria">mentoria</label><br>
+
+        <label for="serviços">Serviços desejados</label><br>
+        <select id="serviços" name="serviços">
+            <option value="portifolio">Portifolio</option>
+            <option value="blog">Blogueiro</option>
+            <option value="nada">Nada</option>
+        </select><br>
+        <label>
+            <input type="submit" value="enviar">
+        </label>
+    </form>
 </body>
 </html>
