@@ -6,7 +6,14 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <nav>
+        <a href="#imagem">mensagem extra</a>
+    </nav>
+<header>
     <h1> listas em HTML</h2>
+</header> 
+<main>
+    <section id="Volei">
     <h3> lista dos componentes em volei part1</h3>
     <ol type="I">
         <li> Ponteiro</li>
@@ -35,8 +42,15 @@
         <li>ataca</li></ul>
         <li> Reserva</li>
     </ul>
-    <img src="memes-gatos-2.jpg_687446817.webp" alt="gato debochado" width="200" height="180">
+    </section>
 
+    <section id="gato">
+    <!--imagem-->
+    <img src="memes-gatos-2.jpg_687446817.webp" alt="gato debochado" width="200" height="180">
+    </section>
+
+    <section id="Tabela">
+    <!--tabela-->
     <table border="2" cellspacing="5" cellpadding="8">
         <thead>
             <tr>
@@ -45,35 +59,53 @@
             </tr>
         </thead>
     </table>
+    </section>
+
+    <section id="Formulario">
+    <!--Formulario-->
     <h2> Formulario para o INSS</h2>
     <form action="#" method="post">
-        <label for="nome">Nome</label><br>
+        <label for="nome">Nome do usuario</label><br>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br>
 
         <label for="idade">idade</label><br>
         <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required><br>
 
-        <label for="email">e-mail</label><br>
+        <label for="email">e-mail da conta Gov </label><br>
         <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required><br>
 
-        <label for="senha">senha</label><br>
-        <input type="number" id="senha" name="senha" min="6" max="8"><br>
+        <label for="senha">senha da conta Gov</label><br>
+        <input type="number" id="senha" name="senha" min="6" max="8" required><br>
 
-        <label>Interesse</label><br>
-        <input type="checkbox" id="site" name="interesse" value="site" checked>
-        <label for="site">criaçao de site</label><br>
-        <input type="checkbox" id="mentoria" name="interesse" value="menotria">
-        <label for="mentoria">mentoria</label><br>
+        <label>Interesse:</label><br>
+        <input type="checkbox" id="bpc" name="interresse" value="site" checked>
+        <label for="bpc"> Ver bpc</label><br>
+        <input type="checkbox" id="vantagens" name="interesse" value="vantagens">
+        <label for="vantagens">ver vantagens</label><br>
+        <input type="checkbox" id="senha" name="interesse" value="senha">
+        <label for="senha">resgate</label><br>
+      
 
         <label for="serviços">Serviços desejados</label><br>
         <select id="serviços" name="serviços">
-            <option value="portifolio">Portifolio</option>
-            <option value="blog">Blogueiro</option>
+            <option value="Saldo">Saldo</option>
+            <option value="BPC">bpc</option>
+            <option value="tudo">tudo de cima</option>
             <option value="nada">Nada</option>
         </select><br>
         <label>
             <input type="submit" value="enviar">
         </label>
     </form>
+    </section>
+
+<section id="imagem">
+<img src="meme.cat.jpg.jpg">
+</section>
+
+</main>
+<footer>
+    <p>fim do site</p>
+</footer>
 </body>
 </html>
