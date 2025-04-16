@@ -1,0 +1,24 @@
+body {
+    background-color: #e56666; /* Define uma cor de fundo clara para a página (opcional) */
+    font-family: sans-serif;
+    color: #d4fc83;
+    position: absolute;
+}
+
+.inicio {
+    background-color: #f30505;
+    border: 1px solid #696262;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #333;
+    width: 400px;
+    position: top;
+    top: 30px;
+    left: 20px;
+   
+}
+    h1 {
+        font-size: 64px;
+        text-align: center;
+    }
+
+

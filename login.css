@@ -1,0 +1,42 @@
+body{
+    display: flex;  /*layout do site*/
+    margin-top: 90px; /* afasta do topo do site*/
+    justify-content: center; /* centraliza*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.login{
+    display: flex; 
+    justify-content: center; 
+    align-items:center;
+    background-color: #333;
+    padding: 90px;
+    border-radius: 25px;
+    color: aliceblue;
+}
+
+.text{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color:deepskyblue;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

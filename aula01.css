@@ -1,0 +1,29 @@
+body{
+    background-color: #333;
+    font-family: sans-serif;
+    color: #d4fc83;
+    position: absolute;
+}
+
+.card{
+    background-color: #113249;
+    border: 1px solid #696262;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #333;
+    width: 400px;
+    position:relative;
+    top: 30px;
+    left: 20px;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+}

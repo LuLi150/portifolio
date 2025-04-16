@@ -1,0 +1,24 @@
+.container{
+
+    display:grid; /* cria colunas */
+    grid-template-columns: 100px 100px 100px; /* tamanho das colunas*/
+    gap:10px; /* distancia em geral*/
+}
+
+.container2{
+    display: flexbox; /*mesmo que grid, porem mais facil */
+    justify-content: center;/* alinha a linha na horizontal*/
+    align-items: center; /* alinha a linha na cruzado/vertical*/
+    flex-direction:column; /* alinha na posição escolhida*/
+}
+
+.container3{
+    margin: 0; /* margem do site*/
+    padding: 0; /* espaço entre o topo da margem e o conteudo */
+    box-sizing: border-box;/* ajuda não quebrar,em vez de +, ele subtrai */
+}
+
+/* usar para se adpitar a um tablet e celular */
+/*--> @media (max-width:768px)*/
+/*breackpoint ((max-width:768px))--> lista para tamanho de tela*/
+/* media query--> consulta o tamanho da tela*/
