@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Portifólio</title>
 </head>
+<main class="container">
 <body>
     <div class="titulo">
+        <img src="#" alt="foto"
         <h2> Luana Lima</h2>
     </div>
+<nav>
+    <a id="item1" href="#sobre">Sobre mim</a>
+    <a id="item2" href="#experiencia">Minhas experiências</a>
+    <a id="item3" href="formulario">Contato</a>
+</nav>
+
+<div id="Sobre">
+    <h2>Sobre mim</h2>
+    <p>Gosto de tecnologia ...</p>
+</div>
+    <div id="experiencia">
+        <h2>Minhas experiências</h2>
+        <p>Já tenho alguns conhecimentos com a progrmação.
+          Fiz cursos no Instituto Cuca sobre sistemas operacionais e agora faço um com o projeto Geração Tech2.0 sobre desenvolvimento de web com JavaScript.
+        </p>
+    </div>
+    <div id="formulario" >
+    <h3>Entre em contado</h3>
+    <form action="#" method="post" >
+        <input type="text" placeholder="Nome" class="text" required>
+        <input type="number" placeholder="idade" class="text">
+        <input type="email" placeholder="email" class="text" required>
+        <label for="mensagem"> Digite sua mensagem</label><br>
+        <textarea name="mensagem" cols="7" rows="7"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+</main>
 </body>
 </html>
